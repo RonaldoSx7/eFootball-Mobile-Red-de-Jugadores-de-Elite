@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eFootball - Torneo de Ganadores</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="header">
+    <div class="container">
+      <h1 class="title">eFootball Mobile: Red de Jugadores de Elite</h1>
+      <p class="subtitle">🏆 Torneo eFootball - Ganadores 🏆</p>
+    </div>
+  </header>
+
+<!-- Temporada 2 -->
+<section id="temporada-2" class="season">
+  <h2>Temporada 2</h2>
+  <ul class="competitor-list">
+    <li>Jared - 🏅🏅</li>
+    <li>Ronaldo S - 🏅</li>
+    <li>Raúl Fernandez- 🏅</li>
+    <li>Giordi - 🏅</li>
+    <li>Fexxo - 🏅</li>
+    <li>Moisés - 🏅</li>
+    <li>Zelaya - 🏅</li>
+
+  </ul>
+</section>
+
+
+    <!-- Temporada 1 con Acordeón -->
+    <section id="temporada-1" class="season">
+      <h2>Temporada 1</h2>
+      <button class="accordion">Ver Ganadores de la Temporada 1</button>
+      <div class="panel">
+        <ul class="winner-list">
+<li>ᴳᵒᵃᵗ🥇Cᴀᴍɪʟᴏ 🏅🏅🏅🏅🏅 🏅 🏅 🏅 🏅🏅🏅 🏅</li>
+<li>Raúl fernandez 🏅🏅🏅🏅🏅🏅🏅🏅🏅🏅🏅🏅🏅🏅🏅</li>
+<li>Alejandra ❤🏅🏅</li>
+<li>Fabricio CM 🏅</li>
+<li>Fabricio ca 🏅</li>
+<li>Carrion T. 🏅</li>
+<li>Aaron 🏅🏅</li>
+<li>DANILO J 🏅</li>
+<li>LuisV🏅🏅🏅🏅🏅🏅🏅</li>
+<li>Eduardo🏅🏅🏅🏅🏅🏅🏅</li>
+<li>Simeon🏅</li>
+<li>Müller🏅</li>
+<li>Mijail🏅🏅🏅🏅</li>
+<li>Giordi🏅🏅🏅🏅🏅🏅🏅🏅🏅🏅🏅 🏅🏅</li>
+<li>Francisco 🏅</li>
+<li>Valen._ib 🎖</li>
+<li>Kevin Díaz 🏅</li>
+<li>Jack🏅🏅🏅🏅🏅🏅</li>
+<li>Rafagol 🏅 🏅 🏅 🏅🏅</li>
+<li>Daniel 🏅</li>
+<li>Jhossep🏅</li>
+<li>Diidier🏅</li>
+<li>afernandoo77🏅🏅🏅</li>
+<li>Marcos🏅</li>
+<li>amaritofc🏅</li>
+<li>Esteban🇳🇬🏅🏅🏅🏅🏅🏅</li>
+<li>Esteban🇨🇱🏅</li>
+<li>Ihan Rivasplata🏅🏅🏅</li>
+<li>Manuel 🏅</li>
+<li>Brayan🏅🏅🏅🏅🏅🏅🏅🏅</li>
+<li>Lara 🏅</li>
+<li>Renato🏅🏅</li>
+<li>Joshua 🏅</li>
+<li>Ricardo🏅🏅</li>
+<li>SebasRC🏅🏅</li>
+<li>Andrés🏅</li>
+<li>Axel 🏅🏅</li>
+<li>Jordito Eusebito🏅🏅</li>
+<li>ARMANJU🏅🏅</li>
+<li>David🏅</li>
+<li>Paco🏅</li>
+<li>Sterling 🏅</li>
+<li>Enrique 🏅</li>
+<li>Dario 🏅</li>
+<li>Boran 🏅</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pie de Página -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 Torneo eFootball. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    $(document).ready(function() {
+      $(".accordion").click(function() {
+        $(this).toggleClass("active");
+        var panel = $(this).next();
+        panel.toggleClass("active");
+        panel.slideToggle(300);
+      });
+    });
+  </script>
+</body>
+</html>
